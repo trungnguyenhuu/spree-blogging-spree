@@ -5,8 +5,8 @@ ru:
   activerecord:
     models:
       spree/blog_entry:
-        one: Blog Entry
-        other: Blog Entries
+        one: Запись в блоге
+        other: Записи блога
     attributes:
       spree/blog_entry:
         title: Заголовок

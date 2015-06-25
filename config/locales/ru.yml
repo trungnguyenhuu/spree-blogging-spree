@@ -52,6 +52,7 @@ ru:
     blog_category: Категория
     blog_author: Автор
     back_to_blog_list: Назад к списку записей
+    editing_blog_entry: Редактирование записи в блоге
     admin:
       tab:
         blog_entries: Блог

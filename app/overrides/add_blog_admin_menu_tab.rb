@@ -4,7 +4,7 @@ Deface::Override.new({
   :insert_bottom => "[data-hook='admin_tabs'], #admin_tabs[data-hook]",
   :text => "
     <ul class='nav nav-sidebar'>
-      <%= tab(:blog_entries, :label => 'Blog', :url => spree.admin_blog_entries_path, :icon => 'file') if can? :manage, Spree::BlogEntry %>
+      <%= tab(:blog_entries, :label => I18n.t(:other, scope: 'activerecord.models.spree/blog_entry'), :url => spree.admin_blog_entries_path, :icon => 'file') if can? :manage, Spree::BlogEntry %>
     </ul>
   ",
   :disabled => false

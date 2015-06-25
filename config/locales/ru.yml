@@ -26,7 +26,7 @@ ru:
   spree:
     title: Заголовок
     body: Содержимое
-    summary: Summary
+    summary: Анонс
     permalink: Постоянная ссылка
     published_at: Дата публикации
     visible: Показывать

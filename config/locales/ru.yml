@@ -51,6 +51,7 @@ ru:
     blog_tag: Ключевое слово
     blog_category: Категория
     blog_author: Автор
+    back_to_blog_list: Назад к списку записей
     admin:
       tab:
         blog_entries: Блог
